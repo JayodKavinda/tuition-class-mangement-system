@@ -1,7 +1,6 @@
-package com.ruh.eie.grp01;
+package com.ruh.eie.grp01.student;
 
-import com.ruh.eie.grp01.student.InMemoryStudentStore;
-import com.ruh.eie.grp01.student.Student;
+
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
