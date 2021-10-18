@@ -34,9 +34,9 @@ public class InMemoryClassStudentStore implements ClassStudentStore {
         studentList.add(student);
         classStudents.put(classRoom,studentList);
 
-        System.out.println("ClassRoom: "+ classRoomName);
+        System.out.println("Student assigned to ClassRoom "+ classRoomName);
         for(Student stu: studentList){
-            System.out.println(" students:"+ stu);
+            System.out.println(" ->students:"+ stu);
         }
 
     }

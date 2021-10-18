@@ -5,11 +5,12 @@ import java.util.List;
 
 public class InMemoryClassStore implements ClassStore {
 
-    List<ClassRoom> classRooms = new ArrayList<>();
+    private List<ClassRoom> classRooms = new ArrayList<>();
 
     @Override
     public void save(ClassRoom classRoom) {
         classRooms.add(classRoom);
+        System.out.println("Successfully created class");
     }
 
     @Override
