@@ -5,11 +5,12 @@ import java.util.List;
 
 public class InMemoryStudentStore implements StudentStore {
 
-    List<Student> studentList = new ArrayList<>();
+    private List<Student> studentList = new ArrayList<>();
 
     @Override
     public void save(Student student) {
         studentList.add(student);
+        System.out.println("Successfully created student");
     }
 
     @Override

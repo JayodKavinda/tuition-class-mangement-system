@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Grp 01- tution managment system" />
         <module name="tuition-class-mangement-system" />
+        <module name="Grp 01- tution managment system" />
+        <module name="tuition-class-mangement-system-org" />
       </profile>
     </annotationProcessing>
   </component>

@@ -26,11 +26,12 @@ public class InMemorySessionStore implements SessionStore {
         getAttendance(session.getClassRoom().getClassName());
     }
 
-    public List<Student> getAttendance(String className){
+    private List<Student> getAttendance(String className){
         List<Student> students = classStudentStore.getStudents(className);
         System.out.println("Students attendance Report: (No of students = " + students.size() + ")");
         System.out.println("Attend Students >>");
-        System.out.println(students);
+        for(Student s: students)
+            System.out.println(" ->"+s);
 
         return students;
     }
