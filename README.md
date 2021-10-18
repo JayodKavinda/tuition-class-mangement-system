@@ -12,3 +12,4 @@ This application is align with object oriented best practices with SOLID princip
     `assign <className> <studentId>`
 4.	Create a new session: 
     `create session <date> <fromTime> <toTime> <className>`
+Attendance report will automatically generate after creating session
