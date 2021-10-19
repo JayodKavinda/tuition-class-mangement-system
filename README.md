@@ -14,4 +14,4 @@ This application is align with object oriented best practices with SOLID princip
     `create session <date> <fromTime> <toTime> <className>`
 5.  Attendance report will automatically generate after creating session
 
-![alt text](https://drive.google.com/file/d/15qUnL2vPBc8iUbOV3MCXOor7pjgtiFzF/view?usp=sharing)
+<img src="https://drive.google.com/file/d/15qUnL2vPBc8iUbOV3MCXOor7pjgtiFzF/view?usp=sharing" width="350" >
