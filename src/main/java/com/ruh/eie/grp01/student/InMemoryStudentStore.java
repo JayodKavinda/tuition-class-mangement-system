@@ -20,7 +20,7 @@ public class InMemoryStudentStore implements StudentStore {
                 return student;
         }
 
-        throw new RuntimeException("Student is not found id: "+ id);
+        throw new StudentNotFoundException("Student is not found id: "+ id);
     }
 
     @Override

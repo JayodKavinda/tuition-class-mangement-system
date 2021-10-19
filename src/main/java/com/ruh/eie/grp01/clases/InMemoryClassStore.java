@@ -19,7 +19,7 @@ public class InMemoryClassStore implements ClassStore {
             if(classRoom.getClassName().equals(className))
                 return classRoom;
         }
-        throw new RuntimeException("ClassRoom not found: "+ className);
+        throw new ClassRoomNotFoundException("ClassRoom not found: "+ className);
     }
 
     @Override
