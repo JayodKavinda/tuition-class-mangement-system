@@ -73,6 +73,8 @@ public class Main
                             sessionStore.saveSession(session);
                             break;
                         }
+                        default:
+                            System.out.println("Wrong command");
                     }
 
                     break;
@@ -85,6 +87,8 @@ public class Main
                         System.out.println(student);
                     }
                     break;
+                default:
+                    System.out.println("Wrong command");
             }
 
         }
